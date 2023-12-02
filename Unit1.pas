@@ -45,10 +45,10 @@ begin
 if Timer1.Enabled=False
 then begin
   Timer1.Enabled:=True;
-  Button1.Caption:='Стоп'
+  Button1.Caption:='Stop'
 end else begin
   Timer1.Enabled:=False;
-  Button1.Caption:='Старт'
+  Button1.Caption:='Start'
 end;
 end;
 
